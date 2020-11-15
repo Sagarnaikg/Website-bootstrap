@@ -1,0 +1,90 @@
+/* sass --watch style/style.scss style/style.css */
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h4,
+h5 {
+  font-weight: 800;
+}
+
+.btn-primary,
+.btn-secondary {
+  background: #4361ee;
+  border: 0;
+  font-weight: 500;
+}
+.btn-primary:hover,
+.btn-secondary:hover {
+  background: #3a0ca3;
+}
+
+.btn-outline-secondary {
+  border-color: #4361ee;
+  font-weight: 500;
+  color: #4361ee;
+}
+.btn-outline-secondary:hover {
+  background: #4361ee;
+  color: #fff;
+}
+
+/* navbar */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+}
+.navbar .navbar-brand:hover {
+  color: #4361ee;
+}
+.navbar .nav-item {
+  margin: 5px 10px;
+}
+
+.home .row {
+  display: flex;
+  align-items: center;
+}
+
+/* call-to-action */
+.call-to-action {
+  background: #4361ee;
+}
+.call-to-action .btn {
+  border: 2px solid #fff;
+}
+
+/* portfolio */
+.portfolio .row {
+  max-width: 1200px;
+  margin: auto;
+}
+.portfolio .col-lg-3 {
+  min-height: 200px;
+}
+.portfolio img {
+  width: 100%;
+}
+.portfolio .ig {
+  position: relative;
+}
+.portfolio .ig .filter {
+  position: absolute;
+  top: 0;
+  left: 0mm;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* footer */
+.footer p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/*# sourceMappingURL=style.css.map */

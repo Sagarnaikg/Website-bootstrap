@@ -1,0 +1,110 @@
+/* sass --watch style/style.scss style/style.css */
+
+$blue-light: #4361ee;
+$blue-dark: #3a0ca3;
+$light: #fff;
+$dark: #000000;
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h4,
+h5 {
+  font-weight: 800;
+}
+
+.btn-primary,
+.btn-secondary {
+  background: $blue-light;
+  border: 0;
+  font-weight: 500;
+
+  &:hover {
+    background: $blue-dark;
+  }
+}
+
+.btn-outline-secondary {
+  border-color: $blue-light;
+  font-weight: 500;
+  color: $blue-light;
+
+  &:hover {
+    background: $blue-light;
+    color: $light;
+  }
+}
+
+/* navbar */
+
+.navbar {
+  background-color: $light;
+  border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+
+  .navbar-brand {
+    font-weight: bold;
+
+    &:hover {
+      color: $blue-light;
+    }
+  }
+
+  .nav-item {
+    margin: 5px 10px;
+  }
+}
+
+.home {
+  .row {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* call-to-action */
+.call-to-action {
+  background: $blue-light;
+
+  .btn {
+    border: 2px solid $light;
+  }
+}
+
+/* portfolio */
+.portfolio {
+  .row {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .col-lg-3 {
+    min-height: 200px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .ig {
+    position: relative;
+
+    .filter {
+      position: absolute;
+      top: 0;
+      left: 0mm;
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color: $dark, $alpha: 0.5);
+    }
+  }
+}
+
+/* footer */
+.footer {
+  p {
+    color: rgba($color: $light, $alpha: 0.7);
+  }
+}
